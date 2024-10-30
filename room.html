@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="room.css">
+    <script src="room.js" defer></script>
+    <title>A busca</title>
+</head>
+
+<body>
+    <div id="board" class="hidden">
+        <button id="exitB">X</button>
+        <img src="./img/board.jpeg" alt="">
+    </div>
+    <div class="blur hidden" id="blur"></div>
+    <button id="showboard"><img src="./img/lupa.png" alt=""></button>
+    <button id="showletter"><img src="./img/lupa.png" alt=""></button>
+    <button id="showpc"><img src="./img/lupa.png" alt=""></button>
+    <div id="carta" class="hidden">
+        <button id="exitC">X</button>
+        <p class="carta">
+
+            Um poema sem graça, artificial #001 <br>
+            <br>
+            Amanhecer suave, a luz a brilhar, <br>
+            Nasce a esperança, vem pra ficar. <br>
+            Onda de sonhos, vida a fluir, <br>
+            Que sorriso alegre.<br>
+            No ritmo de um coração a dançar, <br>
+            Amigos e amores, prontos pra amar. <br>
+            Se a vida é um ciclo, vamos celebrar, <br>
+            Caminhos que surgem, prontos pra trilhar. <br>
+            Estrelas no céu, a brilhar sem parar, <br>
+            Unindo os destinos, prontos pra sonhar. <br>
+        </p>
+    </div>
+    <div id="password-cont" class="hidden" style="display: none;">
+        <button id="exitPc">X</button>
+        <h1>Insira a senha:</h1>
+        <input type="text" id="password">
+        <button id="entrar">entrar.</button>
+    </div>
+</body>
+
+</html>
